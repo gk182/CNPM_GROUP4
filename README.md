@@ -16,7 +16,7 @@ Dự án này cung cấp chức năng xác thực người dùng thông qua mã 
 ## Cài Đặt
 1. Clone repository về máy của bạn:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/gk182/CNPM_GROUP4.git
    ```
 2. Cài đặt các thư viện cần thiết (nếu có) trong file `pom.xml` (nếu bạn sử dụng Maven).
 3. Cấu hình thông tin email trong `EmailSender.java` để gửi email thành công.
