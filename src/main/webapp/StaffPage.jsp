@@ -1,5 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<% 
+    String role = (String) session.getAttribute("role"); // Lấy thông tin vai trò từ session
+
+    if (role == null || !role.equals("Staff")) { 
+        response.sendRedirect("Login.jsp"); 
+    }
+%>
 <!DOCTYPE html>
 <html>
 <head>
